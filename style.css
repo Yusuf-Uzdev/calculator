@@ -1,0 +1,143 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator
+{
+    width: 300px;
+    height: 500px;
+    background-color: rgba(14, 14, 14, 0.938);
+    position: relative;
+    border-radius: 10px;
+}
+
+.container
+{
+    width: 90%;
+    height: 90%;
+    margin: 8% auto;
+    border-radius: 10px;
+}
+
+.result
+{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.operations{
+    width: 20%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.numpad_container
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.operate-panel
+{
+    display: flex;
+    margin-top: 15px;
+}
+
+.num
+{
+    font-size: 30px;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #3d3d3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px auto;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.operations > .plus, .minus, .multiple, .devide
+{
+   font-size: 27px;
+   color: #fff;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   background-color: rgb(243, 172, 19);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 5px auto;
+   border: none;
+   outline: none;
+   margin: 5px;
+   cursor: pointer;
+   user-select: none;
+}
+
+.zero
+{
+    border-radius: 40px;
+    padding: 0px 70px;
+    margin: 0px;
+}
+
+.sum
+{
+    width: 100%;
+    height: 45px;
+    background-color: #1d1d1d;
+    border: none;
+    text-align: right;
+    font-size: 40px;
+    color: #fff;
+    outline: none;
+}
+
+.number-wrapper
+{
+    margin-top: 50px;
+}
+
+.AC
+{
+    font-size: 27px;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f3ac13;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+    user-select: none;
+}
